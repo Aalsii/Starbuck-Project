@@ -518,17 +518,56 @@ ul.breadcrumb li a:hover {
     padding-top: 11px;
     height: 220px;
     border: none;
-    background-image:url(assets/images/dsahboard_banner_bg_776cab700b.jpg) ;
+    background-image: url(assets/images/dsahboard_banner_bg_776cab700b.jpg);
 }
-.inner-banner-img-leftside img{
+
+.inner-banner-img-leftside img {
     width: 95px;
 }
-.inner-banner-text{
+
+.inner-banner-text {
     width: calc(100% - 95px);
 }
 
 
+.wrapper-section {
+    background: #f2f0eb;
+    width: 100%;
 
+}
+
+.marg-box {
+    width: 84%;
+}
+
+.title-section {
+    padding: 10px 6px;
+    justify-content: flex-start;
+    gap: 49px;
+}
+
+.card-section{
+    width: 100%;
+}
+.max-w{
+    max-width: 86%;
+}
+.item-1{
+    width: 291px;
+    height: 179px;
+    background: #a1a1a1;
+}
+.item-img-box-1{
+    width: 125px;
+}
+.item-img-box-1 img{
+    position: relative;
+    top: 11px;
+    right: 31px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 11px;
+}
 
 
 
