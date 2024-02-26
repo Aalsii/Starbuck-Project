@@ -190,7 +190,9 @@ ul {
     border-radius: 22px;
     background-color: #1E3932;
 }
-
+.card-p{
+    font-weight: 700;
+}
 .innerBB-card1-cardDetails-info p {
     font-weight: 400;
     font-size: 8px;
@@ -270,6 +272,12 @@ ul {
 .item-h4 h4 {
     font-size: .9em;
 }
+
+.item-sizes:hover{
+border: 3px solid #00754a;
+}
+
+
 
 /*  */
 
@@ -555,23 +563,48 @@ ul.breadcrumb li a:hover {
 .item-1{
     width: 291px;
     height: 179px;
-    background: #a1a1a1;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid #ededed;
+    box-shadow: 0 0 2px #00000012, 0 2px 2px #0000000f, 0 1px 3px #0000001a;
 }
 .item-img-box-1{
-    width: 125px;
+    height: 100%;
+    width: 33%;
 }
 .item-img-box-1 img{
     position: relative;
     top: 11px;
     right: 31px;
-    width: 100%;
-    object-fit: cover;
+    height: 89px;
+    width: 118px;
+    object-fit: fill;
     border-radius: 11px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.wrp-this-box{
+    width: 67%;
+    display: grid;
+}
+.wrp-this-box h4{
+    font-size: .9rem;
+}
+.wrp-this-box p{
+    font-size: .7rem;
+}
+.item-btn-1{
+    padding-top: 36px;
 }
 
+.item-btn-1 button{
+    border-radius: 22px;
+    background-color: #00754a;
+}
 
-
-
+.item-btn-1 button:hover{
+    border-radius: 22px;
+    background-color: #1E3932;
+}
 
 
 
