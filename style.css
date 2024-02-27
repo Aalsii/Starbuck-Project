@@ -541,7 +541,6 @@ ul.breadcrumb li a:hover {
 .wrapper-section {
     background: #f2f0eb;
     width: 100%;
-
 }
 
 .marg-box {
@@ -558,6 +557,8 @@ ul.breadcrumb li a:hover {
     width: 100%;
 }
 .max-w{
+    margin-top: 28px;
+    justify-content: space-around;
     max-width: 86%;
 }
 .item-1{
